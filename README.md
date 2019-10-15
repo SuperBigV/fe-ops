@@ -14,3 +14,7 @@ npm install vue
 npm run build 编译项目在项目目录下生产dist静态文件，发布到nginx即可
 如果是本机测试 运行测试环境：npm run dev
 ```
+## 修改后端服务地址
+```
+项目目录src/utils/index.js该文件是各个后端模块的地址，按需修改即可，默认是本机地址
+```
